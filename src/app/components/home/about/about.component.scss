@@ -1,0 +1,17 @@
+.about{
+    
+    .about-description{
+        margin-top: 30px;
+        max-width: 480px;
+    }
+
+    .about-img-container{
+        width: 324px;
+        margin: auto;
+
+        &:after{
+            content: '';
+            border: 2px solid $Green;
+        }
+    }
+}
